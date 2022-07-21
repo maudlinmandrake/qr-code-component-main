@@ -27,7 +27,7 @@ main {
 .qr-code {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    box-shadow: 2px 5px 500px hsl(220, 15%, 55%);
+    box-shadow: 0 0 100px 2px hsl(220deg 15% 55%);
     padding: 20px;
     text-align: center;
     width: 300px;
