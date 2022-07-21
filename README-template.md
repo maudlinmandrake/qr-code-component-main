@@ -12,7 +12,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
@@ -40,41 +39,47 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+When I first learned HTML and CSS, it was much more primitive than what developers now have at their disposal. I started with this project specifically because I knew it would be a great way to use Flexbox. I struggled with this until I found my solution buried (like usual) in Stack Overflow. I couldn't get my main div to center vertically despite technically being correct: turns out I had to set `html`, `body` and the main flex container to `100%` since my components were so small (I'm assuming).
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+html {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(218, 44%, 22%);
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.qr-code {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 2px 5px 500px hsl(220, 15%, 55%);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [CSS Grid: Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Great visual guide on Flexbox, it's various properties, and what you can expect those properties to do
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Jenny Mikac](https://www.jennymikac.com)
+- Frontend Mentor - [@jennymikac](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
