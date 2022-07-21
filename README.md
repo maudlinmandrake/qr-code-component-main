@@ -72,8 +72,7 @@ body {
 
 ### Useful resources
 
-- [CSS Grid: Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Great visual guide on Flexbox, it's various properties, and what you can expect those properties to do
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Grid: Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Great visual guide on Flexbox, it's various properties, and what you can expect those properties to do.
 
 ## Author
 
